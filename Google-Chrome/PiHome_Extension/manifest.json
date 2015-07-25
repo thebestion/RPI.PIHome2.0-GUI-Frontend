@@ -1,0 +1,19 @@
+{
+  "name": "PIHome 2.0",
+  "version": "2.0",
+  "description": "PiHome 2.0 is a RaspberryPI Homeautomation open source project",
+  "background": {
+    "scripts": ["bg.js"]
+  },
+  "icons": { 
+  	"48" : "icon_48.png",
+  	"128": "icon_128.png" 
+  },
+  "browser_action": {
+  	"default_title": "PIHome 2.0",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2,
+  "permissions": 
+     ["tabs"]
+}

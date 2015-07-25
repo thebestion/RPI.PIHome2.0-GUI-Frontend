@@ -1,0 +1,8 @@
+
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^([-0-9a-z]*)/([-0-9a-z]*)/([-0-9]*)/$ index.php?c=$1&a=$2&id=$3 [L,QSA]
+RewriteRule ^([-0-9a-z]*)/([-0-9a-z]*)/$ index.php?c=$1&a=$2 [L,QSA]
+RewriteRule ^([-0-9a-z]*)/$ index.php?c=$1 [L,QSA]
