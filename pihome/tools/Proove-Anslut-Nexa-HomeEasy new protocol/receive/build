@@ -1,0 +1,1 @@
+g++ scan_433RF.cpp -o scan_433RF -lwiringPi

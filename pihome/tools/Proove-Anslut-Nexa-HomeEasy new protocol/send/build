@@ -1,0 +1,1 @@
+g++ send_433RF.cpp -o send_433RF -lwiringPi
