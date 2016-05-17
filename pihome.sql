@@ -125,7 +125,8 @@ INSERT INTO `pi_settings` (`id`, `name`, `value`) VALUES
 (17, 'oc_ical', 'false'),
 (18, 'oc_user', ''),
 (19, 'oc_pass', ''),
-(20, 'oc_ical_url', '');
+(20, 'oc_ical_url', ''),
+(21, 'api_weather', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
