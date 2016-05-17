@@ -111,6 +111,7 @@ define('SET_city', 'city');
 define('SET_timezone', 'timezone');
 define('SET_country_code', 'country code');
 define('SET_weather', 'weather');
+define('SET_api_weather', 'OpenWeatherMap API key');
 define('SET_units', 'units');
 define('SET_gcal', 'Google calender');
 define('SET_gcal_url', 'Google calender Url');
