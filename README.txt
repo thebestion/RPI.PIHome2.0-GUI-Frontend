@@ -16,7 +16,7 @@ Pass: pihome
 
 
 #### PiHome CronJobs #### ( sudo crontab -e )
-*/5 * * * * php /home/www/cron/weather.php 
+*/10 * * * * php /home/www/cron/weather.php 
 * * * * * php /home/www/cron/sunrise_sunset.php
 * * * * * php /home/www/cron/gcal.php
 * * * * * php /home/www/cron/caldav.php
