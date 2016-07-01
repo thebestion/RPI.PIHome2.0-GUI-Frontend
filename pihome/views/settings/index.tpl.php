@@ -104,6 +104,13 @@
                   <br>
               </div>
             </div> 
+            
+            <div class="form-group">
+              <label class="col-xs-12 col-sm-12 col-md-12 control-label"><?php echo SET_api_weather;?></label>                
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                  <input type="text" name="api_weather" class="form-control" value="<?php echo $settings['api_weather']; ?>"><br>
+              </div>
+            </div>             
                 
             <div class="form-group">
               <label class="col-xs-12 col-sm-12 col-md-12 control-label"><?php echo SET_units;?></label>                

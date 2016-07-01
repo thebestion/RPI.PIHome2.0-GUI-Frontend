@@ -21,8 +21,9 @@ $settings = settings();
 date_default_timezone_set($settings['timezone']);  
 $city = $settings['city'];
 $land = $settings['country_code'];
+$api = $settings['api_weather'];
 // Get Weather Data per openweathermap api
-$weather_api = "http://api.openweathermap.org/data/2.5/weather?q=".$city.",".$land;
+$weather_api = "http://api.openweathermap.org/data/2.5/weather?APPID=".$api."&q=".$city.",".$land;
 $json = file_get_contents($weather_api);
 file_put_contents('/home/www/weather/weather.json', $json);
 ?>

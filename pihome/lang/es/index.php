@@ -111,6 +111,7 @@ define('SET_city', 'Ciudad');
 define('SET_timezone', 'Zona horaria');
 define('SET_country_code', 'Código de país');
 define('SET_weather', 'Clima');
+define('SET_api_weather', 'OpenWeatherMap API llave');
 define('SET_units', 'Unidades');
 define('SET_gcal', 'Calendario de Google');
 define('SET_gcal_url', 'Url del calendario de Google');
