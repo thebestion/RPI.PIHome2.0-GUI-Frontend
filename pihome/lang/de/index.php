@@ -107,7 +107,7 @@ define('USER_del_quest', 'Wollen Sie diesen Benutzer löschen?');
     
 /* Settings */    
 define('SET_HEADLINE', 'PIHome Einstellungen');
-define('SET_sunrise', 'Sonnenuntergang');
+define('SET_sunrise', 'Sonnenaufgang');
 define('SET_city', 'Stadt');
 define('SET_timezone', 'Zeitzone');
 define('SET_country_code', 'Ländercode');
